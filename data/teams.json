@@ -1,0 +1,214 @@
+{
+  "teams": [
+    {
+      "name": "data/game_logos/MLBB.png",
+      "description": "Mobile Legends: Bang Bang",
+      "backgroundImage": "data/game_logos/sora.jpg",
+      "players": [
+        {
+          "ign": "Toussaints",
+          "name": "Duay, Carl Ahron M.",
+          "age": "",
+          "position": "Exp Lane",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FCJE.jpg",
+          "profileImage": "data/MLBB/TOUSSAINTS.png"
+        },
+        {
+          "ign": "Hey Syrii",
+          "name": "Caintang, Paul Simon D.",
+          "age": "",
+          "position": "Gold Lane",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/HEY SYRII.png"
+        },
+        {
+          "ign": "Meiko",
+          "name": "Lingo, Ivan Kyle L.",
+          "age": "",
+          "position": "Roamer",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/MEIKO.png"
+        },
+        {
+          "ign": "Xela's Witch",
+          "name": "Budta, Alex Jr. G.",
+          "age": "",
+          "position": "Midlaner",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FNAHS.jpg",
+          "profileImage": "data/MLBB/XELASS_WITCH.png"
+        },
+        {
+          "ign": "Serben",
+          "name": "Miones, Benny James B.",
+          "age": "",
+          "position": "Jungler",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/SERBEN.png"
+        },
+        {
+          "ign": "SN4P",
+          "name": "Mejia, Brent Khloe ",
+          "age": "",
+          "position": "Exp Lane",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/SNAP.png"
+        },
+        {
+          "ign": "Creed",
+          "name": "Dulzura, Dan Christopher S.",
+          "age": "",
+          "position": "Roamer",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/Dan.png"
+        },
+        {
+          "ign": "1 of 1",
+          "name": "Landoy, Nicole James S.",
+          "age": "",
+          "position": "Roamer",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/Landoy.png"
+        },
+        {
+          "ign": "Yeyebonnel",
+          "name": "Catipay, Bonnel Jhon I. ",
+          "age": "",
+          "position": "Midlaner",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/Yeyebonnel.png"
+        },
+        {
+          "ign": "htiaf",
+          "name": "Escalante, John Paul",
+          "age": "",
+          "position": "Jungler",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/Jp.png"
+        },
+        {
+          "ign": "Fux1nya",
+          "name": "Mikko Jay G. Hao",
+          "age": "",
+          "position": "Jungler",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/MLBB/Fux1nya.jpg"
+        }
+      ]
+    },
+    {
+      "name": "data/game_logos/CODM.png",
+      "description": "Call of Duty: Mobile MP & BR Team",
+      "backgroundImage": "data/game_logos/codm.jpg",
+      "players": [
+        {
+          "ign": "bresa",
+          "name": "Austria, Bryza Yzabella",
+          "age": "",
+          "position": "Support/Anchor",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FALS.jpg",
+          "profileImage": "data/CODM/BRESA.png"
+        },
+        {
+          "ign": "seiji",
+          "name": "Lingo, Hazel Gwen",
+          "age": "",
+          "position": "Anchor",
+          "department": "",
+          "departmentLogo": "data/faculty_logo/FNAHS.jpg",
+          "profileImage": "data/CODM/SEIJI.png"
+        },
+        {
+          "ign": "rye",
+          "name": "Polinar, Katherine Monich",
+          "age": "",
+          "position": "Objective",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FNAHS.jpg",
+          "profileImage": "data/CODM/RYE.png"
+        },
+        {
+          "ign": "meiji",
+          "name": "Largo, Samantha Mariz A.",
+          "age": "",
+          "position": "Slayer/Support",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/CODM/MEIJI.png"
+        },
+        {
+          "ign": "diviana",
+          "name": "Cabantao, Dianne",
+          "age": "",
+          "position": "Objective",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FBM.jpg",
+          "profileImage": "data/CODM/DIVIANA.png"
+        }
+      ]
+    },
+    {
+      "name": "data/game_logos/VALORANT.png",
+      "description": "Dominating the tactical FPS scene with strategic gameplay",
+      "backgroundImage": "data/game_logos/omen.jpg",
+      "players": [
+        {
+          "ign": "N/A",
+          "name": "Tiberio, Vinch Lemuel L.",
+          "age": "",
+          "position": "Controller",
+          "department": "N/A",
+          "departmentLogo": "data/faculty_logo/FaCET.png",
+          "profileImage": "data/player_images/VALO/Vinch.png"
+        },
+        {
+          "ign": "N/A",
+          "name": "N/A",
+          "age": "",
+          "position": "Duelist",
+          "department": "N/A",
+          "departmentLogo": "data/images/DEC.png",
+          "profileImage": "data/images/DEC.png"
+        },
+        {
+          "ign": "N/A",
+          "name": "N/A",
+          "age": "",
+          "position": "Sentinel",
+          "department": "N/A",
+          "departmentLogo": "data/images/DEC.png",
+          "profileImage": "data/images/DEC.png"
+        },
+        {
+          "ign": "N/A",
+          "name": "N/A",
+          "age": "",
+          "position": "Initiator",
+          "department": "N/A",
+          "departmentLogo": "data/images/DEC.png",
+          "profileImage": "data/images/DEC.png"
+        },
+        {
+          "ign": "N/A",
+          "name": "N/A",
+          "age": "",
+          "position": "Flex",
+          "department": "N/A",
+          "departmentLogo": "data/images/DEC.png",
+          "profileImage": "data/images/DEC.png"
+        }
+      ]
+    }
+  ]
+}

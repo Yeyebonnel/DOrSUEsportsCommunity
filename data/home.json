@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "title": "Welcome to DOrSU Esports Community",
+    "subtitle": "Representing our campus in competitive gaming"
+  },
+  "features": [
+    {
+      "icon": "bi bi-trophy-fill",
+      "title": "Competitive Excellence",
+      "description": "Winning tournaments and representing our university with pride"
+    },
+    {
+      "icon": "bi bi-mortarboard-fill",
+      "title": "Student Athletes",
+      "description": "Balancing academics and competitive gaming at the highest level"
+    },
+    {
+      "icon": "bi bi-controller",
+      "title": "Multiple Games",
+      "description": "Competing in Mobile Legends, Valorant, Call of Duty: Mobile, and Tekken 8"
+    },
+    {
+      "icon": "bi bi-people-fill",
+      "title": "Community Driven",
+      "description": "Building a strong gaming community on campus"
+    }
+  ],
+  "news": [
+    {
+      "title": "Looking for Committees",
+      "date": "January 19, 2026",
+      "description": "The DORSU Esports Community is officially looking for passionate and dedicated students! We’re searching for individuals ready to level up their skills and take part in shaping our future events and initiatives. ",
+      "category": "Recruitment",
+      "image": "data/news/Looking_for_committees.jpg",
+      "link": "https://www.facebook.com/share/p/1DULPU6nF7/"
+    },
+    {
+      "title": "DOrSU Esports Community Jersey Launch",
+      "date": "January 16, 2026",
+      "description": "Get ready to don the power. DOrSU Esports jersey is live!",
+      "category": "Announcement",
+      "image": "data/news/jersey.jpg",
+      "link": "https://www.facebook.com/share/p/17k5JciQ1Q/"
+    }
+  ],
+  "achievements": [
+    {
+      "year": "2025",
+      "title": "Silver Finish for our raptors",
+      "description": "They fought with precision, battled with pride, and proved their dominance in every match! Our DOrSU RAPTORS – CODM MP Girls Team soars high with a Silver Medal finish in the MASTS Esports 2025 Tournament!",
+      "image": "data/dec_images/mp gt.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "The DOrSU Esports Reign Supreme ",
+      "description": "On October 27, 2025 our Call of Duty: Mobile Battle Royale team for emerging as the CHAMPIONS of the Philippine Collegiate Championship Open Cup - October COD:M Battle Royale Tournament.",
+      "image": "data/dec_images/PCC CODM BR.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "Courtesy Call to Provincial Sports Director",
+      "description": "The Davao Oriental State University (DORSU) Esports Community, together with representatives from Net Central Esports and VAIN Gamers, paid a courtesy call to Mr. Peter Paul Chiu, Provincial Sports Director, on September 26, 2025, to discuss the growing role of esports in the province.",
+      "image": "data/dec_images/province.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "GENERAL ASSEMBLY 2025",
+      "description": "The DOrSU Esports Community successfully conducted its General Assembly on September 19, 2025, at 1:00 PM in the BITM Building. The assembly served as a venue for presenting plans, fostering collaboration, and strengthening the commitment of members toward the growth and development of the esports community at DOrSU.",
+      "image": "data/dec_images/gen2025.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "Qualified to PCC Season 3 MLBB Regional Cup Tournament.",
+      "description": "One of our own from DOrSU Esport Community is stepping into the Land of Dawn, repping us in the Philippine Collegiate Championship (PCC) Season 3 MLBB Regional Cup Tournament.",
+      "image": "data/dec_images/pcc.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "Panaghigalaay 2025",
+      "description": "On August 22, 2025, the DOrSU Esports Community took part in Panaghigalaay 2025, a celebration that brought together students and organizations to strengthen bonds of unity friendship within the university.",
+      "image": "data/dec_images/panaghigalaay 20251.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "DOrSU Esport Community Oath Taking",
+      "description": "On August 15, 2025, the Davao Oriental State University (DOrSU) Esports Community officially held its oath-taking ceremony, signifying its formal recognition as a student organization within the Davao Oriental State University.",
+      "image": "data/dec_images/oath_taking.jpg",
+      "icon": ""
+    }
+  ],
+  "footer": {
+    "text": "DOrSU Esports Community - Where strategy meets skills."
+  }
+}

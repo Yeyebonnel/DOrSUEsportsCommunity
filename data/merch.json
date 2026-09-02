@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Official Merch",
+    "subtitle": "Show your colors with the latest DEC drops.",
+    "ctaText": "Shop the Collection",
+    "ctaLink": "#merchShop"
+  },
+  "section": {
+    "highlight": "Shop",
+    "title": "DEC Merch Lineup"
+  },
+  "ctaLabel": "Order Now",
+  "categories": ["All", "Apparel", "Accessories", "Collectibles"],
+  "products": [
+    {
+      "name": "DEC 1st Gen Jersey 2026",
+      "category": "Apparel",
+      "price": "₱400",
+      "badge": "New Drop",
+      "status": "Preorder",
+      "sizes": ["S", "M", "L", "XL"],
+      "image": "data/merch/Jersey.jpg",
+      "description": "Oversized comfort with the DEC crest in neon red.",
+      "link": "https://forms.gle/Exy1c4yd1qWzuJz27"
+    }
+  ],
+  "footer": {
+    "text": "DOrSU Esports Community - Gear up and represent."
+  }
+}

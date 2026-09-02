@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="View official DOrSU Esports Community tournaments, activities, match results, and live brackets." />
+    <meta property="og:title" content="Tournaments - DOrSU Esports Community" />
+    <meta property="og:description" content="Official DOrSU Esports Activities & Brackets." />
+    <meta property="og:image" content="data/images/DEC.png" />
+    <meta property="og:type" content="website" />
+    <title>DOrSU Esports Community - Tournaments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="icon" type="image/png" href="data/images/DEC.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="data/images/DEC.png" alt="DEC Logo" class="navbar-logo me-2" width="40" height="40" />
+          <span class="logo-text">DOrSU Esports Community</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="tournament.html">Tournaments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="merch.html">Merch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tournament Header -->
+    <section class="page-header esports-header">
+      <div class="esports-particles"></div>
+      <div class="container text-center">
+        <div class="header-logo-wrapper mb-4">
+          <img src="data/images/DEC.png" alt="DEC Logo" class="header-logo" />
+        </div>
+        <h1 class="esports-title">Tournaments &amp; Streams</h1>
+        <div class="title-divider"></div>
+        <p class="lead esports-subtitle">Official DOrSU Esports Activities, Live Broadcasts &amp; Brackets</p>
+      </div>
+    </section>
+
+    <!-- Facebook Live Stream Coverage Section -->
+    <section class="py-4 stream-coverage-section">
+      <div class="container">
+        <div class="stream-card p-4 rounded-4 position-relative overflow-hidden">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge bg-danger text-uppercase px-3 py-2 rounded-pill live-badge-pulse">
+                  <i class="bi bi-broadcast me-1"></i> Live Broadcast &amp; Coverage
+                </span>
+                <span class="text-muted small"><i class="bi bi-facebook me-1"></i> Facebook Gaming</span>
+              </div>
+              <h2 class="h3 text-white fw-bold mb-2">DOrSU Esports Live Stream Coverage</h2>
+              <p class="text-light opacity-75 mb-3">Watch live matches, tournament highlights, shoutcasts, and official team streams directly from our Facebook page.</p>
+              <div class="d-flex flex-wrap gap-2">
+                <a href="https://www.facebook.com/share/p/1DULPU6nF7/" target="_blank" rel="noopener noreferrer" class="btn btn-primary esports-btn btn-sm">
+                  <i class="bi bi-facebook me-1"></i> Watch on Facebook
+                </a>
+                <a href="#tournamentsGrid" class="btn btn-outline-light btn-sm rounded-pill px-3">
+                  <i class="bi bi-diagram-3 me-1"></i> View Brackets &amp; Matches
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-lg border border-danger border-opacity-25">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook%2Ffacebook&tabs=timeline&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" title="Facebook Live Broadcast"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tournaments List Section -->
+    <section class="py-5 tournament-section">
+      <div class="container">
+        <div class="esports-accent-line mx-auto mb-3"></div>
+        <h2 class="text-center mb-4 esports-heading"><span class="text-highlight">All</span> Activities</h2>
+
+        <!-- Search & Filter Controls -->
+        <div class="row justify-content-center mb-4 g-3">
+          <div class="col-md-6 col-lg-5">
+            <div class="input-group tournament-search-group">
+              <span class="input-group-text bg-transparent border-secondary text-light"><i class="bi bi-search"></i></span>
+              <input type="text" id="tournamentSearchInput" class="form-control bg-transparent border-secondary text-light" placeholder="Search by game or tournament title..." aria-label="Search tournaments" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="tournament-filters mb-5 text-center" id="tournamentFilters">
+          <button class="tournament-filter-btn active" data-filter="all">All</button>
+          <button class="tournament-filter-btn" data-filter="ongoing"><span class="filter-dot ongoing"></span> Ongoing</button>
+          <button class="tournament-filter-btn" data-filter="upcoming"><span class="filter-dot upcoming"></span> Upcoming</button>
+          <button class="tournament-filter-btn" data-filter="completed"><span class="filter-dot completed"></span> Completed</button>
+        </div>
+
+        <!-- Tournament Cards Grid -->
+        <div class="row g-4" id="tournamentsGrid">
+          <!-- Cards will be loaded by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Tournament Detail Panel -->
+    <section class="tournament-detail-section" id="tournamentDetailSection" style="display: none">
+      <div class="container">
+        <div class="tournament-detail-card">
+          <!-- Back Button -->
+          <button class="tournament-back-btn mb-4" id="tournamentBackBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="me-2">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            Back to All Tournaments
+          </button>
+
+          <div class="row g-3 g-lg-5">
+            <!-- Left: Info -->
+            <div class="col-lg-4">
+              <div class="detail-game-banner">
+                <img src="" alt="" class="detail-game-logo" id="detailGameLogo" />
+                <div class="detail-status-badge" id="detailStatusBadge"></div>
+              </div>
+
+              <h2 class="detail-tournament-name mt-4" id="detailName"></h2>
+              <p class="detail-game-name" id="detailGame"></p>
+
+              <div class="detail-meta-list mt-3">
+                <div class="detail-meta-item">
+                  <span class="detail-meta-icon"><i class="bi bi-calendar3"></i></span>
+                  <div>
+                    <div class="detail-meta-label">Tournament Date</div>
+                    <div class="detail-meta-value" id="detailDate"></div>
+                  </div>
+                </div>
+                <div class="detail-meta-item">
+                  <span class="detail-meta-icon"><i class="bi bi-geo-alt"></i></span>
+                  <div>
+                    <div class="detail-meta-label">Location</div>
+                    <div class="detail-meta-value" id="detailLocation"></div>
+                  </div>
+                </div>
+                <div class="detail-meta-item">
+                  <span class="detail-meta-icon"><i class="bi bi-trophy"></i></span>
+                  <div>
+                    <div class="detail-meta-label">Format</div>
+                    <div class="detail-meta-value" id="detailFormat"></div>
+                  </div>
+                </div>
+                <div class="detail-meta-item">
+                  <span class="detail-meta-icon"><i class="bi bi-people"></i></span>
+                  <div>
+                    <div class="detail-meta-label">Teams</div>
+                    <div class="detail-meta-value" id="detailTeams"></div>
+                  </div>
+                </div>
+                <div class="detail-meta-item">
+                  <span class="detail-meta-icon"><i class="bi bi-award"></i></span>
+                  <div>
+                    <div class="detail-meta-label">Prize Pool</div>
+                    <div class="detail-meta-value" id="detailPrize"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Winner (shown only when completed) -->
+              <div class="detail-winner-box mt-3" id="detailWinnerBox" style="display: none">
+                <div class="detail-winner-crown"><i class="bi bi-trophy-fill text-warning"></i></div>
+                <div class="detail-winner-label">Champion</div>
+                <div class="detail-winner-name" id="detailWinner"></div>
+              </div>
+
+              <div class="mt-4">
+                <p class="detail-description" id="detailDescription"></p>
+              </div>
+
+              <div class="d-flex flex-column gap-2 mt-3">
+                <a href="#" class="btn esports-btn w-100" id="detailChallongeLink" target="_blank" rel="noopener noreferrer"> View Bracket on Challonge <i class="bi bi-box-arrow-up-right ms-1"></i> </a>
+                <a href="https://www.facebook.com/share/p/1DULPU6nF7/" class="btn btn-outline-danger w-100 rounded-pill" id="detailStreamLink" target="_blank" rel="noopener noreferrer"> <i class="bi bi-facebook me-1"></i> Watch Stream on Facebook </a>
+              </div>
+            </div>
+
+            <!-- Right: Bracket -->
+            <div class="col-lg-8">
+              <div class="bracket-container">
+                <div class="bracket-header">
+                  <div class="esports-accent-line mb-3"></div>
+                  <h3 class="bracket-title">Tournament Bracket</h3>
+                </div>
+                <div class="bracket-embed-wrapper" id="bracketEmbedWrapper">
+                  <div class="bracket-loading" id="bracketLoading">
+                    <div class="bracket-spinner"></div>
+                    <p>Loading bracket...</p>
+                  </div>
+                  <iframe id="challongeBracket" src="" width="100%" style="display: none; border: 0" title="Tournament Bracket"></iframe>
+                  <div class="bracket-fallback" id="bracketFallback" style="display: none">
+                    <div class="bracket-fallback-icon"><i class="bi bi-trophy"></i></div>
+                    <p>Bracket not available yet. Check back soon!</p>
+                    <a href="#" class="btn esports-btn mt-2" id="bracketFallbackLink" target="_blank" rel="noopener noreferrer">Open on Challonge</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>DOrSU Esports Community</h5>
+            <p id="footerText">DOrSU Esports Community - Where strategy meets skills.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>&copy; 2026 DOrSU Esports Community. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/tournament.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Official website of the Davao Oriental State University (DOrSU) Esports Community. Representing our campus in competitive gaming, MLBB, CODM, Valorant, tournaments and events." />
+    <meta property="og:title" content="DOrSU Esports Community" />
+    <meta property="og:description" content="Compete. Learn. Excel. Official collegiate esports organization of Davao Oriental State University." />
+    <meta property="og:image" content="data/images/DEC.png" />
+    <meta property="og:type" content="website" />
+    <title>DOrSU Esports Community - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="icon" type="image/png" href="data/images/DEC.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="data/images/DEC.png" alt="DEC Logo" class="navbar-logo me-2" width="40" height="40" />
+          <span class="logo-text">DOrSU Esports Community</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tournament.html">Tournaments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="merch.html">Merch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section esports-hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles"></div>
+      <div class="container hero-content">
+        <div class="hero-logo-wrapper mb-4">
+          <img src="data/images/DEC.png" alt="DEC Logo" class="hero-logo" />
+        </div>
+        <h1 class="hero-title" id="heroTitle">Welcome to DOrSU Esports Community</h1>
+        <div class="hero-divider"></div>
+        <p class="hero-subtitle" id="heroSubtitle"></p>
+        <a href="teams.html" class="btn btn-primary btn-lg esports-btn">View Our Teams</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 esports-section">
+      <div class="container">
+        <div class="esports-accent-line mx-auto mb-3"></div>
+        <h2 class="text-center mb-5 esports-heading"><span class="text-highlight">Why Choose</span> Us</h2>
+        <div class="row" id="featuresContainer">
+          <!-- Features will be loaded from JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="py-5 esports-section-dark">
+      <div class="container">
+        <div class="esports-accent-line mx-auto mb-3"></div>
+        <h2 class="text-center mb-5 esports-heading"><span class="text-highlight">Latest</span> News</h2>
+        <div class="row" id="newsContainer">
+          <!-- News will be loaded from JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements & Events Section -->
+    <section class="py-5 esports-section">
+      <div class="container">
+        <div class="esports-accent-line mx-auto mb-3"></div>
+        <h2 class="text-center mb-5 esports-heading"><span class="text-highlight">Our</span> Achievements & Events</h2>
+        <div class="row" id="achievementsContainer">
+          <!-- Achievements will be loaded from JSON -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>DOrSU Esports Community</h5>
+            <p id="footerText">DOrSU Esports Community - Compete. Learn. Excel.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>&copy; 2026 DOrSU Esports Community. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
