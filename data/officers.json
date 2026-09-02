@@ -4,7 +4,7 @@
     "officers": [
       {
         "position": "ADVISER",
-        "name": "CLINT LAURENCE M. DUEÑAS",
+        "name": "CLINT LAURENCE M. DUEÑAS, MIT",
         "yearProgram": "Faculty",
         "image": "data/images/DEC.png",
         "level": "Adviser",
@@ -20,103 +20,103 @@
       },
       {
         "position": "PRESIDENT",
-        "name": "LOVELY ANGEL MAE E. WAGAS",
-        "yearProgram": "3rd Year | BSED ENGLISH",
+        "name": "MA.STEFANIE CELINE A. DELA SALDE",
+        "yearProgram": "3rd Year | BSIT",
         "image": "data/images/DEC.png",
         "level": "Executive",
         "order": 1
       },
       {
         "position": "VICE PRESIDENT FOR INTERNAL AFFAIRS",
-        "name": "ANGELO S. PADULLON",
-        "yearProgram": "3rd Year | BSIT",
+        "name": "JUNIEL D. SENIAGAN",
+        "yearProgram": "3rd Year | N/A",
         "image": "data/images/DEC.png",
         "level": "Executive",
         "order": 2
       },
       {
         "position": "VICE PRESIDENT FOR EXTERNAL AFFAIRS",
-        "name": "DAN CHRISTOPHER S. DULZURA",
-        "yearProgram": "4th Year | BSMATH",
+        "name": "VINCH LEMUEL T. TIBERIO",
+        "yearProgram": "2nd Year | BSIT",
         "image": "data/images/DEC.png",
         "level": "Executive",
         "order": 3
       },
       {
         "position": "SECRETARY GENERAL",
-        "name": "HAZEL GWEN L. LINGO",
-        "yearProgram": "3rd Year | BSN",
+        "name": "AL-KHAIR BIN MCRIGOR T. ADIMAT",
+        "yearProgram": "3rd Year | N/A",
         "image": "data/images/DEC.png",
         "level": "Executive",
         "order": 4
       },
       {
         "position": "ASSISTANT SECRETARY GENERAL",
-        "name": "NICOLE A. LEAL",
-        "yearProgram": "3rd Year | BSN",
+        "name": "RIANNE VENIZE B. SUMABAT",
+        "yearProgram": "4th Year | BSIT",
         "image": "data/images/DEC.png",
         "level": "Assistant",
         "order": 1
       },
       {
-        "position": "FINANCE OFFICER",
-        "name": "KYLA THERESE C. ALBA",
-        "yearProgram": "4th Year | BSDC",
+        "position": "TREASURER",
+        "name": "JUNREL C. VILLADOLID",
+        "yearProgram": "3rd Year | N/A",
         "image": "data/images/DEC.png",
-        "level": "Officer",
-        "order": 2
+        "level": "Executive",
+        "order": 5
       },
       {
-        "position": "ASSISTANT FINANCE OFFICER",
-        "name": "MARIESTELLA S. FERNANDO",
-        "yearProgram": "4th Year | BSDC",
+        "position": "ASSISTANT TREASURER",
+        "name": "NICOLE A. LEAL",
+        "yearProgram": "4th Year | BSN",
         "image": "data/images/DEC.png",
         "level": "Assistant",
         "order": 3
       },
       {
         "position": "AUDITOR",
-        "name": "DEA NICHOLE D. AGUIMOD",
-        "yearProgram": "3rd Year | BSED ENGLISH",
+        "name": "MIKKO JAY G. HAO",
+        "yearProgram": "3rd Year | BSIT",
         "image": "data/images/DEC.png",
-        "level": "Officer",
-        "order": 4
+        "level": "Executive",
+        "order": 6
       },
       {
         "position": "ASSISTANT AUDITOR",
-        "name": "RALPH ANGELO Q. DENILA",
-        "yearProgram": "3rd Year | BSN",
+        "name": "REX S. NAQUE",
+        "yearProgram": "3rd Year | BSIT",
         "image": "data/images/DEC.png",
         "level": "Assistant",
         "order": 5
       },
       {
         "position": "BUSINESS MANAGER",
-        "name": "MIKKO JAY G. HAO",
-        "yearProgram": "2nd Year | BSIT",
+        "name": "KENTH JUSTINE B. SUMALINA",
+        "yearProgram": "3rd Year | N/A",
         "image": "data/images/DEC.png",
-        "level": "Assistant",
-        "order": 1
+        "level": "Executive",
+        "order": 7
       },
       {
         "position": "ASSISTANT BUSINESS MANAGER",
-        "name": "REX S. NAQUE",
-        "yearProgram": "2nd Year | BSIT",
+        "name": "CHRISTOPHER LYOD B. MERCADO",
+        "yearProgram": "3rd Year | N/A",
         "image": "data/images/DEC.png",
         "level": "Assistant",
         "order": 2
       },
       {
         "position": "PUBLIC INFORMATION OFFICER",
-        "name": "VINCH LEMUEL L. TIBERIO",
-        "yearProgram": "2nd Year | BSIT",
+        "name": "BONNEL JHON I. CATIPAY",
+        "yearProgram": "4th Year | BSIT",
         "image": "data/images/DEC.png",
-        "level": "Assistant",
-        "order": 3
+        "level": "Executive",
+        "order": 8
       },
       {
         "position": "ASSISTANT PUBLIC INFORMATION OFFICER",
-        "name": "BONNEL JHON I. CATIPAY",
+        "name": "CHRISTIAN KIRT BASOG",
         "yearProgram": "3rd Year | BSIT",
         "image": "data/images/DEC.png",
         "level": "Assistant",
@@ -124,16 +124,16 @@
       },
       {
         "position": "MEMBERSHIP OFFICER",
-        "name": "RIANNE VENIZE B. SUMABAT",
-        "yearProgram": "4th Year | BSIT",
+        "name": "FREDGIE LLYOD M. SUMAMBOT",
+        "yearProgram": "3rd Year | BSN",
         "image": "data/images/DEC.png",
-        "level": "Assistant",
-        "order": 5
+        "level": "Executive",
+        "order": 9
       },
       {
         "position": "ASSISTANT MEMBERSHIP OFFICER",
-        "name": "DEJAY L. NAONG",
-        "yearProgram": "3rd Year | BSIT",
+        "name": "ANGELO C. PADULLON",
+        "yearProgram": "4th Year | BSIT",
         "image": "data/images/DEC.png",
         "level": "Assistant",
         "order": 6
@@ -143,14 +143,63 @@
       "Media": [
         {
           "position": "MEDIA HEAD",
-          "name": "HAZEL GWEN L. LINGO",
-          "yearProgram": "Faculty",
+          "name": "VINCH LEMUEL T. TIBERIO",
+          "yearProgram": "2nd Year | BSIT",
           "image": "data/images/DEC.png",
           "level": "Head",
           "order": 1
+        },
+        {
+          "position": "MEDIA",
+          "name": "HAZEL GWEN L. LINGO",
+          "yearProgram": "4th Year | BSN",
+          "image": "data/images/DEC.png",
+          "level": "Member",
+          "order": 2
+        },
+        {
+          "position": "MEDIA",
+          "name": "DEJAY L. NAONG",
+          "yearProgram": "4th Year | BSIT",
+          "image": "data/images/DEC.png",
+          "level": "Member",
+          "order": 3
+        },
+        {
+          "position": "MEDIA",
+          "name": "SHEREE MAE GRESONES",
+          "yearProgram": "4th Year | BSIT",
+          "image": "data/images/DEC.png",
+          "level": "Member",
+          "order": 4
+        },
+        {
+          "position": "MEDIA",
+          "name": "JEFFREY ANTOPUESTO",
+          "yearProgram": "4th Year | BSIT",
+          "image": "data/images/DEC.png",
+          "level": "Member",
+          "order": 5
         }
       ],
-      "Logistics": [],
+      "Logistics": [
+        {
+          "position": "LOGISTICS HEAD",
+          "name": "KENTH JUSTINE B. SUMALINA",
+          "yearProgram": "3rd Year | N/A",
+          "image": "data/images/DEC.png",
+          "level": "Head",
+          "order": 1
+        },
+        {
+          "position": "LOGISTICS HEAD",
+          "name": "CHRISTOPHER LYOD B. MERCADO",
+          "yearProgram": "3rd Year | BSIT",
+          "image": "data/images/DEC.png",
+          "level": "Head",
+          "order": 2
+        }
+      ],
       "Group Prep": [],
       "Intelligence": []
     }
