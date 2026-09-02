@@ -271,7 +271,9 @@ p {
 /* Esports Header Styling */
 .esports-header {
   position: relative;
-  background: linear-gradient(135deg, #1a0000 0%, #000 50%, #001a1a 100%);
+  background:
+    linear-gradient(135deg, rgba(26, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.78) 50%, rgba(0, 26, 26, 0.82) 100%),
+    url("../data/dec_images/COVER2.jpg") center center / cover no-repeat;
   padding: 120px 0 80px;
   overflow: hidden;
 }
@@ -2914,4 +2916,3 @@ footer {
 .tournament-search-group .form-control {
   border-left: none;
 }
-
