@@ -119,7 +119,7 @@ p {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../data/dec_images/COVER.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../data/dec_images/COVER3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +273,25 @@ p {
   position: relative;
   background:
     linear-gradient(135deg, rgba(26, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.78) 50%, rgba(0, 26, 26, 0.82) 100%),
-    url("../data/dec_images/COVER2.jpg") center center / cover no-repeat;
+    url("../data/dec_images/COVER2.png") center center / cover no-repeat;
+  padding: 120px 0 80px;
+  overflow: hidden;
+}
+
+.tournament-header {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(26, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.78) 50%, rgba(0, 26, 26, 0.82) 100%),
+    url("../data/dec_images/COVER1.jpg") center center / cover no-repeat;
+  padding: 120px 0 80px;
+  overflow: hidden;
+}
+
+.about-header {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(20, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(0, 20, 20, 0.8) 100%),
+    url("../data/dec_images/COVER4.png") center center / cover no-repeat;
   padding: 120px 0 80px;
   overflow: hidden;
 }
