@@ -2,7 +2,7 @@
   "teams": [
     {
       "name": "data/game_logos/MLBB.png",
-      "description": "Mobile Legends: Bang Bang",
+      "description": "",
       "backgroundImage": "data/game_logos/sora.jpg",
       "players": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "name": "data/game_logos/CODM.png",
-      "description": "Call of Duty: Mobile MP & BR Team",
+      "description": "",
       "backgroundImage": "data/game_logos/codm.jpg",
       "players": [
         {
@@ -160,7 +160,7 @@
     },
     {
       "name": "data/game_logos/VALORANT.png",
-      "description": "Dominating the tactical FPS scene with strategic gameplay",
+      "description": "",
       "backgroundImage": "data/game_logos/omen.jpg",
       "players": [
         {
