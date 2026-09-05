@@ -3104,7 +3104,7 @@ footer {
   .team-section { margin-bottom: 2rem; padding: 1.25rem 0.85rem; border-radius: 14px; }
   .team-header { gap: 0.75rem; margin-bottom: 1rem; }
   .game-logo { width: 72px; height: 72px; }
-  .team-title { font-size: 1.15rem; line-height: 1.1; }
+  .team-title { display: block; margin-left: 0 !important; max-width: 190px; font-size: 1rem; line-height: 1.1; letter-spacing: 1px; }
   .players-carousel { gap: 0.75rem; padding: 0.5rem 0 0.75rem; }
   .player-card-wrapper { width: 176px; }
   .player-image { height: 170px; }

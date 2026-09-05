@@ -48,7 +48,7 @@ async function loadTeamsContent() {
             <div class="team-content">
                 <div class="team-header">
                     <img src="${gameLogoSrc}" alt="${teamDescription || "Game Logo"}" class="game-logo" loading="lazy" onerror="this.onerror=null;this.src='data/images/DEC.png';" />
-                    ${teamDescription ? `<span class="team-title d-none d-md-inline ms-3">${teamDescription}</span>` : ""}
+                    ${teamDescription ? `<span class="team-title ms-3">${teamDescription}</span>` : ""}
                 </div>
                 <div class="players-carousel">
                     ${playersHTML}
