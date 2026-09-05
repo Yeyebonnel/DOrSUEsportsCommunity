@@ -22,7 +22,7 @@
         "position": "PRESIDENT",
         "name": "MA.STEFANIE CELINE A. DELA SALDE",
         "yearProgram": "3rd Year | BSIT",
-        "image": "data/images/DEC.png",
+        "image": "data/officers/President.jpg",
         "level": "Executive",
         "order": 1
       },
@@ -102,7 +102,7 @@
         "position": "ASSISTANT BUSINESS MANAGER",
         "name": "CHRISTOPHER LYOD B. MERCADO",
         "yearProgram": "3rd Year | N/A",
-        "image": "data/images/DEC.png",
+        "image": "data/officers/Bm1.jpg",
         "level": "Assistant",
         "order": 2
       },
@@ -118,7 +118,7 @@
         "position": "ASSISTANT PUBLIC INFORMATION OFFICER",
         "name": "CHRISTIAN KIRT BASOG",
         "yearProgram": "3rd Year | BSIT",
-        "image": "data/images/DEC.png",
+        "image": "data/officers/Pio1.jpg",
         "level": "Assistant",
         "order": 4
       },
@@ -195,7 +195,7 @@
           "position": "LOGISTICS HEAD",
           "name": "CHRISTOPHER LYOD B. MERCADO",
           "yearProgram": "3rd Year | BSIT",
-          "image": "data/images/DEC.png",
+          "image": "data/officers/Bm1.jpg",
           "level": "Head",
           "order": 2
         }

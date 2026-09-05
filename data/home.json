@@ -27,28 +27,87 @@
   ],
   "news": [
     {
-      "title": "Looking for Committees",
-      "date": "January 19, 2026",
+      "title": "Panaghigalaay 2026",
+      "date": "",
       "description": "The DORSU Esports Community is officially looking for passionate and dedicated students! We’re searching for individuals ready to level up their skills and take part in shaping our future events and initiatives. ",
       "category": "Recruitment",
-      "image": "data/news/Looking_for_committees.jpg",
-      "link": "https://www.facebook.com/share/p/1DULPU6nF7/"
+      "image": "data/news/panag.jpg",
+      "link": "https://web.facebook.com/share/p/1Drmuz4s5n/"
     },
     {
-      "title": "DOrSU Esports Community Jersey Launch",
-      "date": "January 16, 2026",
+      "title": "DOrSU Esports Community CODM Tryouts",
+      "date": "",
       "description": "Get ready to don the power. DOrSU Esports jersey is live!",
       "category": "Announcement",
-      "image": "data/news/jersey.jpg",
-      "link": "https://www.facebook.com/share/p/17k5JciQ1Q/"
+      "image": "data/news/codmtryouts.jpg",
+      "link": "https://web.facebook.com/share/p/14qRMvr7ErJ/"
+    },
+    {
+      "title": "DOrSU Esports Community MLBB Tryouts",
+      "date": "",
+      "description": "Get ready to don the power. DOrSU Esports jersey is live!",
+      "category": "Announcement",
+      "image": "data/news/mlbbtryouts.jpg",
+      "link": "https://web.facebook.com/share/p/1D3LjNkMz2/"
     }
   ],
   "achievements": [
     {
+      "year": "2026",
+      "title": "The Sentinels are Ready for the Realme Cup: Season 10!",
+      "description": "The DOrSU Sentinels are officially stepping into the Land of Dawn for the Realme Cup: Season 10! Catch our Mobile Legends squad as they take on the stage at SM Lanang Davao this September 06, 2026.",
+      "image": "data/dec_images/sentinels.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2026",
+      "title": "Panaghigalaay 2026",
+      "description": "On September 4 2026, the DOrSU Esports Community will take part in Panaghigalaay 2026, a celebration that brings together students and organizations to strengthen bonds of unity and friendship within the university. The event will feature exciting activities, including Tekken 1v1, CODM 1v1 MP, MLBB 1v1, and a photobooth, creating an opportunity for students to connect, compete, and celebrate together.",
+      "image": "data/dec_images/panaghilaay2026.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2026",
+      "title": "Oath taking 2026",
+      "description": "On September 1, 2026, the Davao Oriental State University (DOrSU) Esports Community officially renewed its recognition as a student organization within Davao Oriental State University, marking another year of commitment to promoting esports, camaraderie, and student engagement within the university community.",
+      "image": "data/dec_images/oathtaking2026.jpg",
+      "icon": ""
+    },
+
+    {
+      "year": "2026",
+      "title": "Congratulations to Kyla Therese C. Alba and Mariesstella Fernandez, BS Development Communication Class of 2026!",
+      "description": "On behalf of the DEC Family, we extend our warmest congratulations on this remarkable milestone. Thank you for your dedicated service as our Finance Officer and Finance Assistant Officer. Your commitment, hard work, and passion have greatly contributed to our organization and will always be appreciated.",
+      "image": "data/dec_images/mareandtere.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2026",
+      "title": "Congratulations to our DEC Advisor, Sir Clint Laurence Mabandos Dueñas!",
+      "description": "On behalf of the DEC Family, we proudly congratulate you on earning your  Master of Science in Information Technology. This remarkable achievement reflects your dedication, perseverance, and passion for lifelong learning.",
+      "image": "data/dec_images/nobnob.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2026",
+      "title": "PLAYOFFS SECURED!",
+      "description": "Congratulations to the DOrSU Stallions and DOrSU Titans for officially advancing to the playoffs of the PCC Regional Cup Season 4 MLBB Tournament! Through teamwork, discipline, and determination, both teams proved they have what it takes to compete among the best. The journey isn’t over - this is only the beginning. ",
+      "image": "data/dec_images/pccseason4.jpg",
+      "icon": ""
+    },
+    {
+      "year": "2025",
+      "title": "Silver Finish for our raptors",
+      "description": "They fought with heart, they battled with pride, and they soared all the way to the top ranks! Our DORSU RAPTORS – CODM BATTLE ROYALE TEAM brings home the Silver Medal in MASTS Esports 2025! ",
+      "image": "data/dec_images/MastsCodm.jpg",
+      "icon": ""
+    },
+
+    {
       "year": "2025",
       "title": "Silver Finish for our raptors",
       "description": "They fought with precision, battled with pride, and proved their dominance in every match! Our DOrSU RAPTORS – CODM MP Girls Team soars high with a Silver Medal finish in the MASTS Esports 2025 Tournament!",
-      "image": "data/dec_images/mp gt.jpg",
+      "image": "data/dec_images/MastsMP.jpg",
       "icon": ""
     },
     {

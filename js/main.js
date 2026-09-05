@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
   loadHomeContent();
 });
 
+let achievementsData = [];
+let achievementsPage = 1;
+const achievementsPerPage = 3;
+
 async function loadHomeContent() {
   try {
     const response = await fetch("data/home.json");
@@ -93,25 +97,8 @@ async function loadHomeContent() {
     // Load achievements
     const achievementsContainer = document.getElementById("achievementsContainer");
     if (achievementsContainer && Array.isArray(data.achievements)) {
-      let achievementsHTML = "";
-      data.achievements.forEach((achievement) => {
-        achievementsHTML += `
-          <div class="col-md-6 col-lg-4 mb-4">
-              <div class="card h-100 achievement-card">
-                  ${achievement.image ? `<img src="${achievement.image}" class="card-img-top" alt="${achievement.title}" loading="lazy" />` : ""}
-                  <div class="card-body">
-                      <div class="achievement-meta">
-                          <span class="achievement-year-badge">${achievement.year}</span>
-                          ${achievement.icon ? `<span class="achievement-icon-badge">${achievement.icon}</span>` : ""}
-                      </div>
-                      <h3 class="card-title h5">${achievement.title}</h3>
-                      <p class="card-text">${achievement.description}</p>
-                  </div>
-              </div>
-          </div>
-        `;
-      });
-      achievementsContainer.innerHTML = achievementsHTML;
+      achievementsData = data.achievements;
+      renderAchievementsPage();
     }
 
     // Update footer
@@ -122,4 +109,62 @@ async function loadHomeContent() {
   } catch (error) {
     console.error("Error loading home content:", error);
   }
+}
+
+function renderAchievementsPage() {
+  const container = document.getElementById("achievementsContainer");
+  const pagination = document.getElementById("achievementsPagination");
+  if (!container) return;
+
+  const totalPages = Math.max(1, Math.ceil(achievementsData.length / achievementsPerPage));
+  achievementsPage = Math.min(Math.max(achievementsPage, 1), totalPages);
+  const start = (achievementsPage - 1) * achievementsPerPage;
+  const visibleAchievements = achievementsData.slice(start, start + achievementsPerPage);
+
+  container.innerHTML = visibleAchievements.map((achievement) => `
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 achievement-card">
+        ${achievement.image ? `<img src="${achievement.image}" class="card-img-top" alt="${achievement.title}" loading="lazy" />` : ""}
+        <div class="card-body">
+          <div class="achievement-meta">
+            <span class="achievement-year-badge">${achievement.year}</span>
+            ${achievement.icon ? `<span class="achievement-icon-badge">${achievement.icon}</span>` : ""}
+          </div>
+          <h3 class="card-title h5">${achievement.title}</h3>
+          <p class="card-text">${achievement.description}</p>
+        </div>
+      </div>
+    </div>
+  `).join("");
+
+  if (!pagination) return;
+  pagination.innerHTML = "";
+  if (totalPages <= 1) {
+    pagination.parentElement.hidden = true;
+    return;
+  }
+  pagination.parentElement.hidden = false;
+
+  const addPageButton = (label, page, className = "", ariaLabel = label) => {
+    if (className.includes("home-page-arrow")) label = page < achievementsPage ? String.fromCharCode(8249) : String.fromCharCode(8250);
+    const item = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `home-page-button ${className}`.trim();
+    button.textContent = label;
+    button.setAttribute("aria-label", ariaLabel);
+    if (page === achievementsPage) button.setAttribute("aria-current", "page");
+    button.disabled = page < 1 || page > totalPages || page === achievementsPage;
+    button.addEventListener("click", () => {
+      achievementsPage = page;
+      renderAchievementsPage();
+      document.getElementById("achievementsContainer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    item.appendChild(button);
+    pagination.appendChild(item);
+  };
+
+  addPageButton("‹", achievementsPage - 1, "home-page-arrow", "Previous achievements page");
+  for (let page = 1; page <= totalPages; page += 1) addPageButton(String(page), page);
+  addPageButton("›", achievementsPage + 1, "home-page-arrow", "Next achievements page");
 }

@@ -59,15 +59,32 @@
       <div class="hero-overlay"></div>
       <div class="hero-particles"></div>
       <div class="container hero-content">
+        <p class="hero-kicker"><span></span> Davao Oriental State University <span></span></p>
         <div class="hero-logo-wrapper mb-4">
           <img src="data/images/DEC.png" alt="DEC Logo" class="hero-logo" />
         </div>
         <h1 class="hero-title" id="heroTitle">Welcome to DOrSU Esports Community</h1>
         <div class="hero-divider"></div>
         <p class="hero-subtitle" id="heroSubtitle"></p>
-        <a href="teams.html" class="btn btn-primary btn-lg esports-btn">View Our Teams</a>
+        <div class="hero-actions">
+          <a href="teams.html" class="btn btn-primary btn-lg esports-btn">Explore Our Teams <i class="bi bi-arrow-up-right"></i></a>
+          <a href="tournament.html" class="hero-secondary-link">See tournaments <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="hero-scroll-cue"><span></span> Scroll to explore</div>
       </div>
     </section>
+
+    <!-- Community Snapshot -->
+    <!-- <section class="snapshot-section" aria-label="Community snapshot">
+      <div class="container">
+        <div class="snapshot-grid">
+          <div class="snapshot-intro"><span class="eyebrow">Built for the next level</span><strong>Campus talent.<br />Competitive spirit.</strong></div>
+          <div class="snapshot-stat"><strong>04</strong><span>Game titles</span></div>
+          <div class="snapshot-stat"><strong>07</strong><span>2025 milestones</span></div>
+          <div class="snapshot-stat"><strong>01</strong><span>Raptor community</span></div>
+        </div>
+      </div>
+    </section> -->
 
     <!-- Features Section -->
     <section class="py-5 esports-section">
@@ -99,6 +116,9 @@
         <div class="row" id="achievementsContainer">
           <!-- Achievements will be loaded from JSON -->
         </div>
+        <nav class="home-pagination-wrap" aria-label="Achievements and events pages">
+          <ul class="home-pagination" id="achievementsPagination"></ul>
+        </nav>
       </div>
     </section>
 

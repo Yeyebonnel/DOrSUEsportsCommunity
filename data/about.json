@@ -1,7 +1,7 @@
 {
   "header": {
-    "title": "About DOrSU Esports Community",
-    "subtitle": "Where strategy meets skills"
+    "title": "About the Community",
+    "subtitle": "A student-led home for competition, growth, and campus pride."
   },
   "mission": {
     "title": "Our Mission",
@@ -9,7 +9,7 @@
   },
   "values": [
     {
-      "icon": "bi bi-lightning-charge-fill",
+      "icon": "bi bi-trophy-fill",
       "title": "Excellence",
       "description": "We strive for excellence in everything we do, from gameplay to fan engagement."
     },
@@ -24,7 +24,7 @@
       "description": "We are committed to continuous improvement and hard work."
     },
     {
-      "icon": "bi bi-bullseye",
+      "icon": "bi bi-lightbulb-fill",
       "title": "Innovation",
       "description": "We embrace new strategies and technologies to stay ahead of the competition."
     }
